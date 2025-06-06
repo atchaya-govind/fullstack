@@ -1,3 +1,35 @@
 .heyy{
     background-color: rgb(86, 139, 0);
+    
 }
+.heyy:hover
+{
+   background-color: deeppink; 
+}      
+        
+        
+    
+
+#ID{
+    color: brown;
+}
+#ONE,#TWO,#THREE
+{
+    color: blueviolet;
+}
+*
+{
+   color: rgb(156, 143, 188);
+}
+.link{
+    text-decoration: none;
+    color: black;
+    background-color: crimson;
+    padding: 8px;
+    border-radius:10px ;
+}
+.link:hover{
+    color:blanchedalmond;
+    background-color: blue;
+}
+

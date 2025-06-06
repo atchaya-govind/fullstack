@@ -4,8 +4,45 @@
     <title>kprcas2025</title>
     <link rel="stylesheet" href="./css/style.css">
     <style>
+        p{
+            font-style: italic;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            font-size: medium;
+            font-weight: 200;
+            line-height: 50px;
+            letter-spacing: 10px;
+            margin:40px;
+            background-color: powderblue;
+            border: 2px solid;
+            
+        }
         h2{
             color: greenyellow;
+        }
+        .fixed{
+            position:fixed;
+            height:10px;
+        }
+        .sticky
+        {
+          position: sticky;
+          top: 0px;
+        }
+        .relative
+        {
+            position:relative;
+            top:10px;
+            left:150px;
+            height:100vh;
+
+        }
+        .child
+        {
+            position:absolute;
+            top:10px;
+            left:100px;
+
         }
     </style>
 </head>
@@ -24,9 +61,9 @@
     <h1> hello</h1>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> Commodi, consequuntur repellat sequi, voluptates recusandae fuga facere quia numquam architecto quo accusamus nobis! Rem <em><u>geerthana</u></em>aspernatur eius ipsum maxime corrupti nisi eligendi dignissimos repellat, officiis omnis quas iusto accusamus dolores est magnam laudantium, accusantium, exercitationem repellendus explicabo similique quia dolorum! Autem, reprehenderit.</p>
     <ol>
-        <li>DIKSHA</li>
-        <li>CHARU</li>
-        <li>GEERTHANA</li>
+        <li ID ="ONE">DIKSHA</li>
+        <li ID ="TWO">CHARU</li>
+        <li ID ="THREE">GEERTHANA</li>
     </ol>
     <ul>
         <li>geerthana</li>
@@ -35,10 +72,11 @@
     </ul>
         <b>atchaya</b>
         <i> family</i>
-        <strong>govind</strong><br>
-        <a href="https://www.chatgot.io/"target="_blank">chatgot</a><br>
-        <a href="home.html">home</a>
-        <img src="assets/strawberry.png" alt="strawberry">
+        <strong>govind</strong><br><br>
+        <a class="link" href="https://www.chatgot.io/"target="_blank">chatgot</a><br><br>
+        <a class="link"href="home.html">home</a><br><br>
+        <img src="assets/strawberry.png" alt="strawberry"><br><br>
+        <h1 id="ID">learning id selector</h1>
         <table border="3px">
             <thead>
                 <tr>
@@ -90,9 +128,13 @@
         <label for="password">password </label>
         <input type="password"placeholder="enter your password"><br><br>
         <button>submit</button>
+    
         </form>
         
         <h1>dashboard</h1>
+        <span style="display: inline; width:20px; background-color: blueviolet;">inline</span>
+        <span style="display:block;background-color: blanchedalmond;">block</span>
+        <span style="display:inline-block;width:100px;background-color: rgb(120, 95, 160);">inline-block</span>
 
             <nav>
 
